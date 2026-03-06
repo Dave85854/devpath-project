@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Lesson 1 | DevPath</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding-top: 80px; background-color: #f4f4f4; color: #333; }
+        header { position: fixed; top: 0; width: 100%; background: #2c3e50; color: white; text-align: center; padding: 10px 0; z-index: 1000; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .lesson-container { max-width: 800px; margin: 20px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .highlight { background-color: #e8f4f8; padding: 15px; border-left: 5px solid #2c3e50; margin: 20px 0; }
+        .back-btn { display: inline-block; margin-bottom: 20px; color: #2c3e50; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>DevPath</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#ml-section">Machine Learning</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="lesson-container">
+        <a href="index.html" class="back-btn">← Back to Curriculum</a>
+        
+        <h2>Lesson 1: The Three Pillars of ML</h2>
+        <p>In our first concept, we learned that ML is about finding rules in data. But <em>how</em> does the computer learn? We categorize it into three main "pillars":</p>
+        
+        <img src="pillars-complete.png" alt="Supervised, Unsupervised, and Reinforcement Learning" style="width: 100%; border-radius: 10px; margin: 20px 0;">
+
+
+
+        <div class="highlight">
+           <h3>1. Supervised Learning</h3>
+            <p><strong>The "Teacher" Method:</strong> We give the computer a dataset where the answers are already labeled (e.g., "This is a photo of a cat"). The AI learns to associate patterns with those labels.</p>
+        </div>
+
+        <div class="highlight">
+         <h3>2. Unsupervised Learning</h3>
+            <p><strong>The "Explorer" Method:</strong> We give the computer data with NO labels. The AI must find hidden structures or clusters on its own (e.g., grouping customers by shopping habits).</>p>
+        </div>
+
+        <div class="highlight">
+          <h3>3. Reinforcement Learning</h3>
+            <p><strong>The "Trial & Error" Method:</strong> The AI learns by interacting with an environment. It gets "points" for good moves and "penalties" for mistakes (e.g., teaching an AI to play chess).</p>
+        </div>
+
+<hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
+<h3>🌍 Where do we see this?</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
+  <div style="text-align: center; padding: 10px; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>Email Spam</strong><br>
+    <small>Supervised (Labeled as "Spam" or "Inbox")</small>
+  </div>
+  <div style="text-align: center; padding: 10px; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>Netflix Groups</strong><br>
+    <small>Unsupervised (Clustering users with similar tastes)</small>
+  </div>
+  <div style="text-align: center; padding: 10px; border: 1px solid #ddd; border-radius: 8px;">
+    <strong>Self-Driving Cars</strong><br>
+    <small>Reinforcement (Learning to stay on the road)</small>
+  </div>
+</div>
+
+<div style="margin: 40px 0; padding: 20px; background-color: #f9f9f9; border-radius: 10px; border: 1px dashed #2c3e50;">
+    <h3>The Next Frontier: Statistics 📊</h3>
+    <p>Machine Learning models aren't magic; they are just <strong>math</strong> that runs very fast.</p> 
+    <p>To understand how a computer "learns" from those 1,000 photos of apples, you need to understand the basics of Statistics. In our next lesson, we’ll cover:</p>
+    <ul>
+        <li><strong>Mean, Median, and Mode:</strong> Finding the "Center" of your data.</li>
+        <li><strong>Standard Deviation:</strong> Measuring how "Spread out" the information is.</li>
+        <li><strong>Probability:</strong> Calculating the likelihood of the AI being right or wrong.</li>
+    </ul>
+</div>
+
+<div style="text-align: center; margin-top: 40px;">
+    <p><em>Ready to learn the math behind these pillars?</em></p>
+    <a href="index.html#stats-section" style="background-color: #2c3e50; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">Next: Statistics Foundations →</a>
+</div>
+
+</div>
+</body>
+</html>
